@@ -1,0 +1,129 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* NavBar */
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 12% 7%;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+  background-color:transparent;
+}
+.navbar-brand {
+  font-family: "Helvetica Neue";
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.colored-section {
+  background: linear-gradient(0.375turn,#041C82, #00122B,#440784);
+  color:#fff;
+}
+.white-section {
+  padding: 5% 15%;
+}
+
+.title-image {
+  width: 100%;
+}
+/* We Speak */
+
+.secondbig-heading {
+font-size: 3.5rem;
+margin: 8%;
+}
+.container-fluid {
+  /* background: linear-gradient(0.375turn,#041C82, #00122B,#440784); */
+  width: 100%;
+  padding: 5% 12% 7%;
+}
+
+.language-icons {
+  width: 80%;
+}
+.language-item {
+  padding: 5%;
+}
+
+/* We Learn */
+
+#welearn .container-fluid {
+
+  background: linear-gradient(0.375turn,#00D7F4, #fff);
+  text-align: left;
+
+}
+#welearn .secondbig-heading {
+
+  margin-left: 0;
+}
+.welearn-image {
+  width: 100%;
+}
+
+
+/* Our Roles */
+.ourroles-image {
+  width: 90%;
+}
+
+.ourrole-row {
+  margin: 50px 0;
+}
+.ourrole-item-right {
+  text-align: right;
+  padding: 100px 0;
+}
+.ourrole-item-left {
+  text-align: left;
+  padding: 100px 0;
+}
+.carousel-item {
+  width: 100%;
+}
+
+
+#ourteam {
+
+}
+
+#ourteam-carousel img{
+  width: 50%;
+}
+
+#ourteam-carousel h4{
+  font-size: 1.3rem;
+}
+.ourteam-container  {
+
+  /* background: linear-gradient(0.125turn,#00D7F4, #fff); */
+  background-color: #00D7F4;
+}
+
+.fotter-item {
+  text-align: left;
+  padding-bottom: 2%;
+}
+hr {
+  border-top: 1px solid #fff ;
+  height: 1.5rem;
+}
+.footer-icon {
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+
+
+}
