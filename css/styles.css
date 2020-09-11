@@ -1,8 +1,6 @@
 body {
   font-family: "Montserrat";
   font-weight: 400;
-  text-align: center;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,38 +10,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* NavBar */
-#title .container-fluid {
-  text-align: left;
+.container-fluid {
+  /* text-align: left; */
   padding: 3% 12% 7%;
 }
+
 .navbar {
   padding: 0 0 4.5rem;
-  background-color:transparent;
+  background-color: transparent;
 }
+
 .navbar-brand {
   font-family: "Helvetica Neue";
   font-size: 2.5rem;
 }
+
 .nav-item {
   padding: 0 18px;
 }
+
 .colored-section {
-  background: linear-gradient(0.375turn,#041C82, #00122B,#440784);
-  color:#fff;
+  background: linear-gradient(0.375turn, #041C82, #00122B, #440784);
+  color: #fff;
+  text-align: center;
 }
+
 .white-section {
   padding: 5% 15%;
+  text-align: center;
 }
 
 .title-image {
   width: 100%;
 }
-/* We Speak */
 
-.secondbig-heading {
-font-size: 3.5rem;
-margin: 8%;
+.title-heading {
+  text-align: left;
 }
+
+/* We Speak */
+.secondbig-heading {
+  font-size: 3.5rem;
+  margin: 6%;
+}
+
 .container-fluid {
   /* background: linear-gradient(0.375turn,#041C82, #00122B,#440784); */
   width: 100%;
@@ -53,61 +63,67 @@ margin: 8%;
 .language-icons {
   width: 80%;
 }
+
 .language-item {
   padding: 5%;
 }
 
 /* We Learn */
-
 #welearn .container-fluid {
-
-  background: linear-gradient(0.375turn,#00D7F4, #fff);
+  background: linear-gradient(0.375turn, #00D7F4, #fff);
   text-align: left;
-
 }
-#welearn .secondbig-heading {
 
+#welearn .secondbig-heading {
   margin-left: 0;
 }
+
 .welearn-image {
   width: 100%;
+  padding-top: 100px;
 }
 
-
 /* Our Roles */
+#ourroles {
+  padding: 0;
+}
 .ourroles-image {
-  width: 90%;
+  width: 100%;
 }
 
 .ourrole-row {
   margin: 50px 0;
 }
+
 .ourrole-item-right {
   text-align: right;
-  padding: 100px 0;
+  padding: 6% 0;
+
 }
+
 .ourrole-item-left {
   text-align: left;
-  padding: 100px 0;
+  padding: 6% 0;
+
 }
+
 .carousel-item {
   width: 100%;
 }
-
 
 #ourteam {
 
 }
 
-#ourteam-carousel img{
+#ourteam-carousel img {
   width: 50%;
 }
 
-#ourteam-carousel h4{
+#ourteam-carousel h4 {
   font-size: 1.3rem;
 }
-.ourteam-container  {
 
+.ourteam-container {
   /* background: linear-gradient(0.125turn,#00D7F4, #fff); */
   background-color: #00D7F4;
 }
@@ -116,14 +132,47 @@ margin: 8%;
   text-align: left;
   padding-bottom: 2%;
 }
+
 hr {
-  border-top: 1px solid #fff ;
+  border-top: 1px solid #fff;
   height: 1.5rem;
 }
+
 .footer-icon {
   color: #fff;
   text-align: center;
   padding: 2%;
+}
+
+@media (max-width:992px) {
+  .title-heading {
+    text-align: center;
+  }
+
+  .title-image {
+    padding-top: 80px;
+    width: 70%;
+  }
+
+  .language-icons {
+    width: 40% 0%;
+  }
+
+  .welearn-section {
+    text-align: center;
+  }
+
+  .welearn-image {
+    width: 70%;
+    padding-top: 50px;
+  }
+  .secondbig-heading {
+    text-align: center;
+  }
+  .ourroles-image {
+    width: 100%;
+    margin-top: 30%;
+  }
 
 
 }
