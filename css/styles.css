@@ -54,18 +54,22 @@ h1, h2, h3, h4, h5, h6 {
   margin: 6%;
 }
 
-.container-fluid {
+#wespeak .container-fluid {
   /* background: linear-gradient(0.375turn,#041C82, #00122B,#440784); */
   width: 100%;
-  padding: 5% 12% 7%;
+  /* padding: 5% 12% 7%; */
 }
 
-.language-icons {
-  width: 80%;
-}
+/* .language-icons {
+  width: 100%;
+} */
 
 .language-item {
-  padding: 5%;
+  font-size: 8rem;
+  padding: 0;
+}
+.language-item :hover{
+ color: blueviolet;
 }
 
 /* We Learn */
