@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 .white-section {
   padding: 5% 15%;
   text-align: center;
+  color: black;
 }
 
 .title-image {
@@ -115,9 +116,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-#ourteam {
+/* #ourteam {
 
-}
+} */
 
 #ourteam-carousel img {
   width: 50%;

@@ -1,0 +1,23 @@
+
+body {
+    background: linear-gradient(0.375turn, #041C82, #00122B, #440784);
+}
+.login-content {
+    text-align: left;
+}
+.white-section {
+    text-align: left;
+    padding: 0;
+} 
+.login-card {
+    width: 100%;
+}
+.not-member {
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+@media (max-width:992px) {
+    .login-content {
+        text-align: center;
+    }
+}
