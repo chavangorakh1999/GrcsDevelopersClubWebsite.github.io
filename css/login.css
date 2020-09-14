@@ -20,4 +20,8 @@ body {
     .login-content {
         text-align: center;
     }
+    .login-card {
+        width: 70%;
+        margin: 3% auto;
+    }
 }
