@@ -57,22 +57,40 @@
             <section class="white-section">
               <div class="card login-card">
                 <div class="card-header">
-                  <h5>Sign In</h5>
+                  <h5>Register</h5>
                 </div>
                 <div class="card-body">
                   <form action="">
+                      <!-- <div class="panel-body">
+
+                      </div> -->
                     <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-6 form-group">
+                                <!-- <label for="email-input">First Name</label> -->
+                                <input type="text" name="first-name" id="first-name" class="form-control input-sm" placeholder="First Name">  
+                            </div>
+                            <div class="col-lg-6 form-group">
+                                <!-- <label for="email-input">Last Name</label> -->
+                                <input type="text" name="last-name" id="last-name" class="form-control input-sm" placeholder="Last Name">  
+                            </div>
+                        </div>
                       <!-- <label for="email-input">Email address</label> -->
-                      <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Email Address">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                     
+                      <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                     </div>
                     <div class="form-group">
-                      <!-- <label for="password-input">Password</label> -->
+                        <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-group">
                       <input type="password" class="form-control" id="password-input" placeholder="Password">
                     
                     </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password-input" placeholder="Confirm Password">
+                    </div>
                     <a href="login.html" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Login</a>
-                    <p class="not-member">Not a member ? <a href="register.html">Create Account</a> </p>
+                    <p class="not-member">Already a member ? <a href="login.html">Sign In</a> </p>
                   </form>
                   
                 </div>
