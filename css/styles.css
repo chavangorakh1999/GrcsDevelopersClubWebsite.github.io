@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat";
   font-weight: 400;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -150,6 +151,9 @@ hr {
 }
 
 @media (max-width:992px) {
+  body {
+    font-size: 150%;
+  }
   .title-heading {
     text-align: center;
   }
@@ -165,6 +169,9 @@ hr {
  
   .language-icons {
     width: 40% 0%;
+  }
+  .language-item {
+    font-size: 110%;
   }
 
   .welearn-section {
