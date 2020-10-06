@@ -158,7 +158,11 @@ hr {
     padding-top: 80px;
     width: 70%;
   }
-
+ .navbar-nav {
+   font-size: 2rem;
+   text-align: left;
+ }
+ 
   .language-icons {
     width: 40% 0%;
   }
@@ -178,7 +182,15 @@ hr {
     width: 100%;
     margin-top: 30%;
   }
-
+  .colored-section {
+    font-size: 150%;
+  }
+  .white-section {
+    font-size: 150%;
+  }
+  .btn {
+    font-size: 150%;
+  }
 
 }
 
