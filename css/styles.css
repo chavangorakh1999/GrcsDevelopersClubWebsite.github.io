@@ -1,7 +1,11 @@
 body {
   font-family: "Montserrat";
   font-weight: 400;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 1b394c954a04ba1c6ee8dac195a73935ab582ecb
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -188,6 +192,9 @@ hr {
   .language-item {
     font-size: 12rem;
     padding: 0;
+  }
+  .language-item {
+    font-size: 110%;
   }
 
 
