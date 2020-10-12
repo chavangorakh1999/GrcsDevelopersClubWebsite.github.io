@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat";
   font-weight: 400;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,9 +62,9 @@ h1, h2, h3, h4, h5, h6 {
   /* padding: 5% 12% 7%; */
 }
 
-/* .language-icons {
+.language-icons {
   width: 100%;
-} */
+}
 
 .language-item {
   font-size: 8rem;
@@ -150,6 +151,9 @@ hr {
 }
 
 @media (max-width:992px) {
+  body {
+    font-size: 150%;
+  }
   .title-heading {
     text-align: center;
   }
@@ -158,13 +162,42 @@ hr {
     padding-top: 80px;
     width: 70%;
   }
-
-  .language-icons {
-    width: 40% 0%;
+  .big-heading {
+    font-size: 4.5rem;
   }
+  .secondbig-heading {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+
+  }
+  .navbar-toggler-icon {
+    width: 5em;
+    height: 5em;
+  }
+  .navbar-brand {
+    font-size: 5rem;
+  }
+ .navbar-nav {
+   font-size: 3rem;
+   text-align: left;
+ }
+
+
+  .language-item {
+    font-size: 12rem;
+    padding: 0;
+  }
+  
+
 
   .welearn-section {
     text-align: center;
+  }
+  .container-fluid {
+    /* text-align: left; */
+    padding: 3% 5% 7%;
   }
 
   .welearn-image {
@@ -177,8 +210,17 @@ hr {
   .ourroles-image {
     width: 100%;
     margin-top: 30%;
+    height: 50%;
   }
-
+  .colored-section {
+    font-size: 150%;
+  }
+  .white-section {
+    font-size: 150%;
+  }
+  .btn {
+    font-size: 150%;
+  }
 
 }
 
